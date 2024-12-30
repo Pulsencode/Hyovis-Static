@@ -2,8 +2,8 @@
     class="navbar navbar-expand-lg bsb-navbar bsb-navbar-hover bsb-navbar-caret bsb-tpl-navbar-float bsb-tpl-navbar-sticky"
     data-bs-theme="dark" data-bsb-stuck-bg="bg-primary" data-bsb-stuck-theme="dark">
     <div class="container">
-        <a class="navbar-brand" href="index.html">
-            <img src="./assets/img/branding/palette-logo.svg" class="bsb-tpl-logo" alt="">
+        <a class="navbar-brand" href="index.php">
+            <img src="./assets/img/branding/hyovis_logo_transparent_white.png" class="bsb-tpl-logo" alt="Hyovis Technologies Logo">
         </a>
         <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas"
             data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
