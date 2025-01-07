@@ -7,13 +7,13 @@
                         <div class="col-12 col-md-11 col-xl-10">
                             <div class="footer-logo-wrapper">
                                 <a href="index.html">
-                                    <img src="./assets/img/branding/palette-logo.svg" alt="" width="179" height="60">
+                                    <img src="./assets/img/branding/hyovis_logo_transparent_white.png" width="200" height="100" class="bsb-tpl-logo" alt="Hyovis Technologies Logo">
                                 </a>
                             </div>
                             <div class="social-media-wrapper mt-5">
                                 <ul class="nav">
                                     <li class="nav-item me-3">
-                                        <a class="nav-link link-primary p-2 bg-light rounded" href="#!">
+                                        <a class="nav-link link-primary p-2 bg-light rounded" href="https://www.facebook.com/profile.php?id=100089405483127&mibextid=ZbWKwL" target="_blank" rel="noopener noreferrer">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
                                                 class="bi bi-facebook" viewBox="0 0 16 16">
                                                 <path
@@ -22,7 +22,7 @@
                                         </a>
                                     </li>
                                     <li class="nav-item me-3">
-                                        <a class="nav-link link-primary p-2 bg-light rounded" href="#!">
+                                        <a class="nav-link link-primary p-2 bg-light rounded" href="https://www.youtube.com/@hyovistech" target="_blank" rel="noopener noreferrer">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
                                                 class="bi bi-youtube" viewBox="0 0 16 16">
                                                 <path
@@ -31,7 +31,7 @@
                                         </a>
                                     </li>
                                     <li class="nav-item me-3">
-                                        <a class="nav-link link-primary p-2 bg-light rounded" href="#!">
+                                        <a class="nav-link link-primary p-2 bg-light rounded" href="https://x.com/i/flow/login?redirect_after_login=%2FHyovis_" target="_blank" rel="noopener noreferrer">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
                                                 class="bi bi-twitter" viewBox="0 0 16 16">
                                                 <path
@@ -40,7 +40,7 @@
                                         </a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link link-primary p-2 bg-light rounded" href="#!">
+                                        <a class="nav-link link-primary p-2 bg-light rounded" href="https://www.instagram.com/hyovis_watersystems/" target="_blank" rel="noopener noreferrer">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
                                                 class="bi bi-instagram" viewBox="0 0 16 16">
                                                 <path
@@ -51,12 +51,12 @@
                                 </ul>
                             </div>
                             <div class="address-wrapper mt-5">
-                                <address class="mb-2 text-white">8014 Edith Blvd NE, Albuquerque, New York, United States</address>
+                                <address class="mb-2 text-white">Karipuzha, Mavelikara, Kerala 690103</address>
                                 <p class="mb-2">
-                                    <a class="link-light text-decoration-none" href="tel:+15057922430">(505) 792-2430</a>
+                                    <a class="link-light text-decoration-none" href="tel:+91(0) 8075578938">+91(0) 8075578938</a>
                                 </p>
                                 <p class="mb-0">
-                                    <a class="link-light text-decoration-none" href="mailto:demo@yourdomain.com">demo@yourdomain.com</a>
+                                    <a class="link-light text-decoration-none" href="mailto:sales@hyovis.com">sales@hyovis.com</a>
                                 </p>
                             </div>
                         </div>
@@ -125,8 +125,7 @@
                                 <div class="col-12 col-sm-6">
                                     <div class="widget">
                                         <h4 class="widget-title mb-4">Our Newsletter</h4>
-                                        <p class="mb-4">Never miss out on our company's latest news, updates, and exclusive offers!
-                                            Subscribe to our newsletter today and get the inside scoop delivered straight to your inbox.</p>
+                                        <p class="mb-4">Don’t miss out on the action! Be the first to hear about our latest news, updates, and exclusive offers. Subscribe to our newsletter today and get VIP access to everything exciting, delivered straight to your inbox!</p>
                                         <form action="#!">
                                             <div class="row gy-4">
                                                 <div class="col-12">
@@ -155,13 +154,13 @@
                             </div>
                             <div class="row mt-6 border-top border-light-subtle">
                                 <div class="footer-copyright-wrapper mt-6">
-                                    &copy; 2023. All Rights Reserved.
+                                    &copy; 2025. All Rights Reserved.
                                 </div>
-                                <div class="credits text-secondary mt-2 fs-7">
+                                <!-- <div class="credits text-secondary mt-2 fs-7">
                                     Built by <a href="https://bootstrapbrain.com/"
                                         class="link-secondary text-decoration-none">BootstrapBrain</a> with <span
                                         class="text-primary">&#9829;</span>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                     </div>

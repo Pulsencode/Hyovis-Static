@@ -20,8 +20,7 @@
                 <h1 class="display-2 fw-bolder mb-4 text-white">Contact Us</h1>
                 <div class="row">
                   <div class="col-12 col-xxl-8">
-                    <p class="fs-5 mb-0 text-secondary">Communication is the key to success, and we're always here to
-                      answer your questions.</p>
+                    <p class="fs-5 mb-0 text-secondary">Effective communication is essential for success, and we’re always ready to assist with any questions you may have.</p>
                   </div>
                 </div>
               </div>
