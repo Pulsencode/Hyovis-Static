@@ -16,7 +16,7 @@
                 <h1 class="display-2 fw-bolder mb-4 text-white">We Offer Modern Automation Solutions</h1>
                 <div class="row">
                   <div class="col-12 col-xxl-8">
-                    <p class="fs-5 mb-5 text-secondary">We specialize in delivering tailored automation solutions, managing fully integrated systems, and fostering long-term partnerships for seamless efficiency and growth.</p>
+                    <p class="fs-5 mb-5 text-secondary">We deliver customized automation solutions, integrated system management, and foster partnerships to ensure efficiency and sustainable growth.</p>
                   </div>
                 </div>
                 <div class="d-grid gap-2 d-sm-flex">

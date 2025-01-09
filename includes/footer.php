@@ -2,7 +2,7 @@
     <section>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-12 col-lg-4 bg-primary py-4 py-md-5 py-xxl-8">
+                <div class="col-12 col-lg-3 bg-primary py-4 py-md-5 py-xxl-8">
                     <div class="row h-100 align-items-end justify-content-center">
                         <div class="col-12 col-md-11 col-xl-10">
                             <div class="footer-logo-wrapper">
@@ -62,7 +62,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-lg-8 bsb-tpl-bg-lotion border-top bsb-tpl-border-lg-cyan py-4 py-md-5 py-xxl-8">
+                <div class="col-12 col-lg-9 bsb-tpl-bg-lotion border-top bsb-tpl-border-lg-cyan py-4 py-md-5 py-xxl-8">
                     <div class="row justify-content-center">
                         <div class="col-12 col-md-11 col-xxl-10">
                             <div class="row gy-4 gy-sm-0">
@@ -99,25 +99,22 @@
                                         <h4 class="widget-title mb-4">Company</h4>
                                         <ul class="list-unstyled">
                                             <li class="mb-3">
-                                                <a href="#!" class="link-secondary text-decoration-none">About</a>
+                                                <a href="about.php" class="link-secondary text-decoration-none">About</a>
                                             </li>
                                             <li class="mb-3">
-                                                <a href="#!" class="link-secondary text-decoration-none">Contact</a>
+                                                <a href="contact.php" class="link-secondary text-decoration-none">Contact</a>
                                             </li>
                                             <li class="mb-3">
-                                                <a href="#!" class="link-secondary text-decoration-none">Advertise</a>
+                                                <a href="conditions_and_policies/privacy_policy.php" class="link-secondary text-decoration-none">Privacy Policy</a>
                                             </li>
                                             <li class="mb-3">
-                                                <a href="#!" class="link-secondary text-decoration-none">Events</a>
+                                                <a href="conditions_and_policies/terms_and_conditions.php" class="link-secondary text-decoration-none">Terms and Conditions</a>
                                             </li>
                                             <li class="mb-3">
-                                                <a href="#!" class="link-secondary text-decoration-none">Careers</a>
+                                                <a href="conditions_and_policies/cancellation_and_refund.php" class="link-secondary text-decoration-none">Cancellation and Refund</a>
                                             </li>
                                             <li class="mb-3">
-                                                <a href="#!" class="link-secondary text-decoration-none">Terms of Service</a>
-                                            </li>
-                                            <li class="mb-0">
-                                                <a href="#!" class="link-secondary text-decoration-none">Privacy Policy</a>
+                                                <a href="conditions_and_policies/shipping_and_delivery.php" class="link-secondary text-decoration-none">Shipping and Delivery</a>
                                             </li>
                                         </ul>
                                     </div>
@@ -156,11 +153,6 @@
                                 <div class="footer-copyright-wrapper mt-6">
                                     &copy; 2025. All Rights Reserved.
                                 </div>
-                                <!-- <div class="credits text-secondary mt-2 fs-7">
-                                    Built by <a href="https://bootstrapbrain.com/"
-                                        class="link-secondary text-decoration-none">BootstrapBrain</a> with <span
-                                        class="text-primary">&#9829;</span>
-                                </div> -->
                             </div>
                         </div>
                     </div>
