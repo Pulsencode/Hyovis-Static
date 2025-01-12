@@ -1,7 +1,8 @@
 <!doctype html>
 <html lang="en">
 
-<?php include('includes/head.php'); ?>
+<?php $page_title = 'Services | Hyovis Technologies';
+include('includes/head.php'); ?>
 
 <body>
   <!-- Header -->

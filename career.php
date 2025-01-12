@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 
-<?php include('includes/head.php'); ?>
+<?php $page_title = 'Career | Hyovis Technologies'; include('includes/head.php'); ?>
 
 <body>
   <!-- Header -->
@@ -59,14 +59,14 @@
               <div class="card-body text-center p-4 p-xxl-5">
                 <h4 class="fw-bold mb-4">Sales Executive</h4>
                 <p class="mb-4 text-secondary">Be the driving force behind our growth, building strong client relationships and unlocking new business opportunities.</p>
-                <a href="mailto:sales@yourdomain.com" class="fw-bold text-decoration-none link-primary">
+                <!-- <a href="mailto:sales@yourdomain.com" class="fw-bold text-decoration-none link-primary">
                   sales@yourdomain.com
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                     class="bi bi-arrow-right-short" viewBox="0 0 16 16">
                     <path fill-rule="evenodd"
                       d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
                   </svg>
-                </a>
+                </a> -->
               </div>
             </div>
           </div>
@@ -75,14 +75,14 @@
               <div class="card-body text-center p-4 p-xxl-5">
                 <h4 class="fw-bold mb-4">Digital Marketer</h4>
                 <p class="mb-4 text-secondary">Lead the way in crafting compelling campaigns that elevate our brand and engage audiences across digital platforms.</p>
-                <a href="mailto:press@yourdomain.com" class="fw-bold text-decoration-none link-primary">
+                <!-- <a href="mailto:press@yourdomain.com" class="fw-bold text-decoration-none link-primary">
                   press@yourdomain.com
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                     class="bi bi-arrow-right-short" viewBox="0 0 16 16">
                     <path fill-rule="evenodd"
                       d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
                   </svg>
-                </a>
+                </a> -->
               </div>
             </div>
           </div>
@@ -91,14 +91,14 @@
               <div class="card-body text-center p-4 p-xxl-5">
                 <h4 class="fw-bold mb-4">Embedded Engineer</h4>
                 <p class="mb-4 text-secondary">Work at the intersection of technology and innovation, developing robust embedded systems that power the future.</p>
-                <a href="mailto:help@yourdomain.com" class="fw-bold text-decoration-none link-primary">
+                <!-- <a href="mailto:help@yourdomain.com" class="fw-bold text-decoration-none link-primary">
                   help@yourdomain.com
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                     class="bi bi-arrow-right-short" viewBox="0 0 16 16">
                     <path fill-rule="evenodd"
                       d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
                   </svg>
-                </a>
+                </a> -->
               </div>
             </div>
           </div>

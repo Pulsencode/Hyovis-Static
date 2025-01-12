@@ -6,7 +6,7 @@
                     <div class="row h-100 align-items-end justify-content-center">
                         <div class="col-12 col-md-11 col-xl-10">
                             <div class="footer-logo-wrapper">
-                                <a href="index.html">
+                                <a href="index.php">
                                     <img src="./assets/img/branding/hyovis_logo_transparent_white.png" width="200" height="100" class="bsb-tpl-logo" alt="Hyovis Technologies Logo">
                                 </a>
                             </div>
@@ -71,26 +71,19 @@
                                         <h4 class="widget-title mb-4">Services</h4>
                                         <ul class="list-unstyled">
                                             <li class="mb-3">
-                                                <a href="#!" class="link-secondary text-decoration-none">AI Solutions</a>
+                                                <a href="#!" class="link-secondary text-decoration-none">Embedded Systems</a>
                                             </li>
                                             <li class="mb-3">
-                                                <a href="#!" class="link-secondary text-decoration-none">Digital Marketing</a>
+                                                <a href="#!" class="link-secondary text-decoration-none">R & D Solutions</a>
                                             </li>
                                             <li class="mb-3">
-                                                <a href="#!" class="link-secondary text-decoration-none">App Development</a>
+                                                <a href="#!" class="link-secondary text-decoration-none">Plumping Solutions</a>
                                             </li>
                                             <li class="mb-3">
-                                                <a href="#!" class="link-secondary text-decoration-none">SEO Consultancy</a>
+                                                <a href="#!" class="link-secondary text-decoration-none">Smart Irrigation</a>
                                             </li>
                                             <li class="mb-3">
-                                                <a href="#!" class="link-secondary text-decoration-none">Web Design</a>
-                                            </li>
-                                            <li class="mb-3">
-                                                <a href="#!" class="link-secondary text-decoration-none">Video Animations</a>
-                                            </li>
-                                            <li class="mb-0">
-                                                <a href="#!" class="link-secondary text-decoration-none">Logo Design</a>
-                                            </li>
+                                                <a href="#!" class="link-secondary text-decoration-none">Industry on Campus</a>
                                         </ul>
                                     </div>
                                 </div>
@@ -104,7 +97,7 @@
                                             <li class="mb-3">
                                                 <a href="contact.php" class="link-secondary text-decoration-none">Contact</a>
                                             </li>
-                                            <li class="mb-3">
+                                            <!-- <li class="mb-3">
                                                 <a href="conditions_and_policies/privacy_policy.php" class="link-secondary text-decoration-none">Privacy Policy</a>
                                             </li>
                                             <li class="mb-3">
@@ -115,7 +108,7 @@
                                             </li>
                                             <li class="mb-3">
                                                 <a href="conditions_and_policies/shipping_and_delivery.php" class="link-secondary text-decoration-none">Shipping and Delivery</a>
-                                            </li>
+                                            </li> -->
                                         </ul>
                                     </div>
                                 </div>
@@ -123,7 +116,7 @@
                                     <div class="widget">
                                         <h4 class="widget-title mb-4">Our Newsletter</h4>
                                         <p class="mb-4">Don’t miss out on the action! Be the first to hear about our latest news, updates, and exclusive offers. Subscribe to our newsletter today and get VIP access to everything exciting, delivered straight to your inbox!</p>
-                                        <form action="#!">
+                                        <!-- <form action="#!">
                                             <div class="row gy-4">
                                                 <div class="col-12">
                                                     <div class="input-group">
@@ -145,7 +138,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                        </form>
+                                        </form> -->
                                     </div>
                                 </div>
                             </div>
