@@ -43,7 +43,10 @@
     <meta property="og:title" content="Hyovis Technologies - Sustainable Water Solutions">
     <meta property="og:description" content="Discover our eco-friendly water-saving technologies.">
     <meta property="og:image" content="https://hyovis.com/assets/img/branding/og_hyovis_logo.webp">
+    <meta property="og:image:alt" content="Hyovis Technologies Logo">
+    <meta property="og:description" content="Hyovis is leading the way in water conservation with automation solutions.">
     <meta property="og:url" content="https://hyovis.com">
+    <meta property="og:site_name" content="Hyovis Technologies">
     <meta property="og:type" content="website">
 
     <!-- Twitter Card -->
