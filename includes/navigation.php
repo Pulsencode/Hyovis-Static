@@ -3,7 +3,7 @@
     data-bs-theme="dark" data-bsb-stuck-bg="bg-primary" data-bsb-stuck-theme="dark">
     <div class="container">
         <a class="navbar-brand" href="index.php">
-            <img src="./assets/img/branding/hyovis_logo_transparent_white.png" class="bsb-tpl-logo" alt="Hyovis Technologies Logo">
+            <img src="./assets/img/branding/hyovis_logo_transparent_white.webp" class="bsb-tpl-logo" alt="Hyovis Technologies Logo">
         </a>
         <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas"
             data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">

@@ -42,7 +42,7 @@
     <!-- Facebook Open Graph -->
     <meta property="og:title" content="Hyovis Technologies - Sustainable Water Solutions">
     <meta property="og:description" content="Discover our eco-friendly water-saving technologies.">
-    <meta property="og:image" content="https://hyovis.com/assets/img/branding/og_hyovis_logo.png">
+    <meta property="og:image" content="https://hyovis.com/assets/img/branding/og_hyovis_logo.webp">
     <meta property="og:url" content="https://hyovis.com">
     <meta property="og:type" content="website">
 
@@ -50,7 +50,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Hyovis Technologies - Water Solutions">
     <meta name="twitter:description" content="Smart water-saving solutions for a sustainable future.">
-    <meta name="twitter:image" content="https://hyovis.com/assets/img/branding/og_hyovis_logo.png">
+    <meta name="twitter:image" content="https://hyovis.com/assets/img/branding/og_hyovis_logo.webp">
 
     <!-- Schema Markup -->
     <?php if (isset($schema_markup)) { echo $schema_markup; } else { ?>

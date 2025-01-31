@@ -7,7 +7,7 @@
                         <div class="col-12 col-md-11 col-xl-10">
                             <div class="footer-logo-wrapper">
                                 <a href="index.php">
-                                    <img src="./assets/img/branding/hyovis_logo_transparent_white.png" width="200" height="100" class="bsb-tpl-logo" alt="Hyovis Technologies Logo">
+                                    <img src="./assets/img/branding/hyovis_logo_transparent_white.webp" width="200" height="100" class="bsb-tpl-logo" alt="Hyovis Technologies Logo">
                                 </a>
                             </div>
                             <div class="social-media-wrapper mt-5">
