@@ -1,6 +1,25 @@
 <!doctype html>
 <html lang="en">
 <?php $page_title = 'Home | Hyovis Technologies';
+$meta_description = "Hyovis Technologies and Water Systems - Leading automation company in India.";
+$schema_markup = '
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "Automation Company",
+    "name": "Hyovis Technologies And Water Systems",
+    "telephone": "8075578938",
+    "email": ["admin@hyovis.com", "sales@hyovis.com"],
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Karipuzha",
+      "addressLocality": "Allapuzha District",
+      "addressRegion": "Kerala",
+      "addressCountry": "India",
+      "postalCode": "690103"
+    }
+  }
+</script>';
 include('includes/head.php'); ?>
 
 <body>
@@ -18,7 +37,7 @@ include('includes/head.php'); ?>
                 <h1 class="display-2 fw-bolder mb-4 text-white">Automation Simplified.</h1>
                 <div class="row">
                   <div class="col-12 col-xxl-8">
-                    <p class="fs-5 mb-5 text-secondary">We deliver customized automation solutions, integrated system management, and foster partnerships to ensure efficiency and sustainable growth.</p>
+                    <h2 class="fs-5 mb-5 text-secondary">We deliver customized automation solutions, integrated system management, and foster partnerships to ensure efficiency and sustainable growth.</h2>
                   </div>
                 </div>
                 <div class="d-grid gap-2 d-sm-flex">

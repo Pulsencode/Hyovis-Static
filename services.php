@@ -21,8 +21,8 @@ include('includes/head.php'); ?>
                 <h1 class="display-2 fw-bolder mb-4 text-white">Our Services</h1>
                 <div class="row">
                   <div class="col-12 col-xxl-8">
-                    <p class="fs-5 mb-0 text-secondary">We provide a more personalized experience tailored to each
-                      client's unique needs.</p>
+                    <h2 class="fs-5 mb-0 text-secondary">We provide a more personalized experience tailored to each
+                      client's unique needs.</h2>
                   </div>
                 </div>
               </div>
@@ -31,7 +31,7 @@ include('includes/head.php'); ?>
           <div class="col-12 col-md-6 p-0">
             <figure class="bsb-overlay-figure w-100 h-100 m-0" style="--bsb-overlay-figure-opacity: .3">
               <img class="img-fluid w-100 h-100 object-fit-cover" loading="lazy"
-                src="./assets/img/hero/service-img-1.webp" alt="">
+                src="./assets/img/hero/service-img-1.webp" alt="Check Out Our Services">
             </figure>
           </div>
         </div>

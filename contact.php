@@ -1,7 +1,27 @@
 <!doctype html>
 <html lang="en">
 
-<?php $page_title = 'Contact | Hyovis Technologies'; include('includes/head.php'); ?>
+<?php
+$page_title = 'Contact | Hyovis Technologies';
+$schema_markup = '
+<script type="application/ld+json">
+  {
+  "@context": "https://schema.org",
+  "@type": "ContactPage",
+  "name": "Contact Us - Hyovis",
+  "url": "https://hyovis.com/contact",
+  "description": "Get in touch with Hyovis Technologies for inquiries about sustainable water solutions.",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+91(0) 8075578938",
+    "contactType": "customer service",
+    "areaServed": "Worldwide",
+    "availableLanguage": ["English", "Malayalam", "Hindi"]
+  }
+}
+</script>';
+include('includes/head.php');
+?>
 
 <body>
   <!-- Header -->
@@ -20,7 +40,7 @@
                 <h1 class="display-2 fw-bolder mb-4 text-white">Contact Us</h1>
                 <div class="row">
                   <div class="col-12 col-xxl-8">
-                    <p class="fs-5 mb-0 text-secondary">Effective communication is essential for success, and we’re always ready to assist with any questions you may have.</p>
+                    <h2 class="fs-5 mb-0 text-secondary">Effective communication is essential for success, and we’re always ready to assist with any questions you may have.</h2>
                   </div>
                 </div>
               </div>
@@ -29,7 +49,7 @@
           <div class="col-12 col-md-6 p-0">
             <figure class="bsb-overlay-figure w-100 h-100 m-0" style="--bsb-overlay-figure-opacity: .3">
               <img class="img-fluid w-100 h-100 object-fit-cover" loading="lazy"
-                src="./assets/img/hero/contact-img-1.webp" alt="">
+                src="./assets/img/hero/contact-img-1.webp" alt="Contact Us - We are always ready to assist">
             </figure>
           </div>
         </div>

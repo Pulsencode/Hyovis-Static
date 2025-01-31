@@ -1,19 +1,70 @@
-
+AllowOverride All
 RewriteOptions inherit
+RewriteEngine On
 
-RewriteEngine on
+# Force www (optional, remove if not needed)
+RewriteCond %{HTTP_HOST} ^hyovis\.com$ [NC]
+RewriteRule ^(.*)$ https://www.hyovis.com/$1 [R=301,L]
+
+# Remove .php from URLs
+RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^([^\.]+)$ $1.html [NC,L]
+RewriteCond %{DOCUMENT_ROOT}/$1.php -f
+RewriteRule ^([^/.]+)$ $1.php [L]
 
-RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s([^.]+)\.html [NC]
-RewriteRule ^ %1 [R=301,L,NE]
-RewriteCond %{HTTP_HOST} ^hyovis\.com$ [OR]
-RewriteCond %{HTTP_HOST} ^www\.hyovis\.com$
-RewriteRule ^washing\-mechine\-cleaner\/$ "https\:\/\/hyovis\.com\/WashingMachineDrumCleaner" [R=301,L]
+# Redirect users who type .php to the clean URL
+RewriteCond %{THE_REQUEST} \.php
+RewriteRule (.*)\.php$ /$1 [R=301,L]
 
-# php -- BEGIN cPanel-generated handler, do not edit
-# Set the “ea-php74” package as the default “PHP” programming language.
+# Enable Gzip Compression for Performance
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/html text/css application/javascript
+</IfModule>
+
+# Set PHP version (cPanel configuration)
 <IfModule mime_module>
   AddHandler application/x-httpd-ea-php74___lsphp .php .php7 .phtml
 </IfModule>
+
+<IfModule mod_rewrite.c>
+    RewriteCond %{REQUEST_FILENAME}.php -f
+    RewriteRule ^([^/]+)/?$ $1.php [L]
+</IfModule>
+
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# Set the “alt-php81” package as the default “PHP” programming language.
+<IfModule mime_module>
+  AddHandler application/x-httpd-alt-php81___lsphp .php .php8 .phtml
+</IfModule>
 # php -- END cPanel-generated handler, do not edit
+
+# BEGIN cPanel-generated php ini directives, do not edit
+# Manual editing of this file may result in unexpected behavior.
+# To make changes to this file, use the cPanel MultiPHP INI Editor (Home >> Software >> MultiPHP INI Editor)
+# For more information, read our documentation (https://go.cpanel.net/EA4ModifyINI)
+<IfModule php8_module>
+   php_flag display_errors Off
+   php_value max_execution_time 60
+   php_value max_input_time 600
+   php_value max_input_vars 10000
+   php_value memory_limit 512M
+   php_value post_max_size 512M
+   php_value session.gc_maxlifetime 1440
+   php_value session.save_path "/var/cpanel/php/sessions/alt-php81"
+   php_value upload_max_filesize 512M
+   php_flag zlib.output_compression On
+</IfModule>
+<IfModule lsapi_module>
+   php_flag display_errors Off
+   php_value max_execution_time 60
+   php_value max_input_time 600
+   php_value max_input_vars 10000
+   php_value memory_limit 512M
+   php_value post_max_size 512M
+   php_value session.gc_maxlifetime 1440
+   php_value session.save_path "/var/cpanel/php/sessions/alt-php81"
+   php_value upload_max_filesize 512M
+   php_flag zlib.output_compression On
+</IfModule>
+# END cPanel-generated php ini directives, do not edit

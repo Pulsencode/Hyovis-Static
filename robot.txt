@@ -1,5 +1,4 @@
 User-agent: *
-Disallow: /admin/   # Prevent access to the admin area
 Allow: /
 
 Sitemap: https://www.hyovis.com/sitemap.xml

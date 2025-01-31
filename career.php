@@ -20,7 +20,7 @@
                 <h1 class="display-2 fw-bolder mb-4 text-white">Be at the forefront.</h1>
                 <div class="row">
                   <div class="col-12 col-xxl-8">
-                    <p class="fs-5 mb-0 text-secondary">Join us in shaping the future, where innovation meets impact, and your contributions drive meaningful change in the world.</p>
+                    <h2 class="fs-5 mb-0 text-secondary">Join us in shaping the future, where innovation meets impact, and your contributions drive meaningful change in the world.</h2>
                   </div>
                 </div>
               </div>
@@ -29,7 +29,7 @@
           <div class="col-12 col-md-6 p-0">
             <figure class="bsb-overlay-figure w-100 h-100 m-0" style="--bsb-overlay-figure-opacity: .3">
               <img class="img-fluid w-100 h-100 object-fit-cover" loading="lazy"
-                src="./assets/img/hero/career-img-1.webp" alt="">
+                src="./assets/img/hero/career-img-1.webp" alt="Join Us at Hyovis Technologies">
             </figure>
           </div>
         </div>

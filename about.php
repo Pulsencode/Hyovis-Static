@@ -20,7 +20,7 @@
                 <h1 class="display-2 fw-bolder mb-4 text-white">About Us</h1>
                 <div class="row">
                   <div class="col-12 col-xxl-8">
-                    <p class="fs-5 mb-0 text-secondary">Whether you're a small business or a large enterprise, we offer tailored plans to suit your needs perfectly.</p>
+                    <h2 class="fs-5 mb-0 text-secondary">Whether you're a small business or a large enterprise, we offer tailored plans to suit your needs perfectly.</h2>
                   </div>
                 </div>
               </div>
@@ -29,7 +29,7 @@
           <div class="col-12 col-md-6 p-0">
             <figure class="bsb-overlay-figure w-100 h-100 m-0" style="--bsb-overlay-figure-opacity: .3">
               <img class="img-fluid w-100 h-100 object-fit-cover" loading="lazy"
-                src="./assets/img/hero/about-img-1.webp" alt="">
+                src="./assets/img/hero/about-img-1.webp" alt="About Us - Hyovis Technologies">
             </figure>
           </div>
         </div>

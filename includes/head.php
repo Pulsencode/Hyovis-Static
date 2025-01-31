@@ -2,9 +2,20 @@
     <!-- Required Meta Tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="<?php echo isset($meta_description) ? $meta_description : 'Welcome to Hyovis, a technology and water systems firm. We are committed in providing sustainable solutions for the efficient management and conservation of water resources.We specialize in the design, development, and implementation of cutting-edge technologies that optimize water usage and provide innovative solutions to the complex challenges facing water systems today.'; ?>">
+    <meta name="description" content="<?php echo isset($meta_description) ? $meta_description : 'Welcome to Hyovis, a technology and water systems firm providing sustainable solutions for efficient water management through innovative technologies.'; ?>">
     <meta name="keywords" content="<?php echo isset($meta_keywords) ? $meta_keywords : 'Hyovis Technologies and Water Systems, water management, automation company in india, automation company in kerala'; ?>">
     <meta name="author" content="<?php echo isset($meta_author) ? $meta_author : 'Hyovis Technologies And Water Systems'; ?>">
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16511306233"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'AW-16511306233');
+    </script>
 
     <!-- Document Title, Description, and Author -->
     <title><?php echo isset($page_title) ? $page_title : 'Hyovis Technologies'; ?></title>
@@ -27,4 +38,38 @@
 
     <!-- CSS Files -->
     <link rel="stylesheet" href="./assets/css/palette-bsb.css">
+    
+    <!-- Facebook Open Graph -->
+    <meta property="og:title" content="Hyovis Technologies - Sustainable Water Solutions">
+    <meta property="og:description" content="Discover our eco-friendly water-saving technologies.">
+    <meta property="og:image" content="https://hyovis.com/assets/img/branding/og_hyovis_logo.png">
+    <meta property="og:url" content="https://hyovis.com">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Hyovis Technologies - Water Solutions">
+    <meta name="twitter:description" content="Smart water-saving solutions for a sustainable future.">
+    <meta name="twitter:image" content="https://hyovis.com/assets/img/branding/og_hyovis_logo.png">
+
+    <!-- Schema Markup -->
+    <?php if (isset($schema_markup)) { echo $schema_markup; } else { ?>
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "Automation Company",
+            "name": "Hyovis Technologies And Water Systems",
+            "telephone": "8075578938",
+            "email": ["admin@hyovis.com", "sales@hyovis.com"],
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Karipuzha",
+                "addressLocality": "Allapuzha District",
+                "addressRegion": "Kerala",
+                "addressCountry": "India",
+                "postalCode": "690103"
+            }
+        }
+    </script>
+    <?php } ?>
 </head>
